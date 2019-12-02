@@ -1,0 +1,43 @@
+h1 { /* Размер шрифта в браузере равен 2em */
+    color: #75108a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem; /*всегда отталкивается от базового размера шрифта, независит от родительского элемента, не поддерживается Internet Explorer */
+    font-weight: normal;
+    }
+
+h2 { /* Размер шрифта в браузере равен 1.5em */
+    color: #32c515;
+    font-family: 'Roboto', sans-serif;
+    font-size:  2em; /* эквивалентно 200%, зависит от родительского элемента */
+    font-weight: normal;
+}
+
+h3 { /* Размер шрифта в браузере равен 1.17em */
+    color: #182ffb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw; /* эквивалентно 1% ширины окна браузера */
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h4 { /* Размер шрифта в браузере равен 1em */
+    color: #4e0e57;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%; /* эквивалентно базовому размеру шрифта предустановленого в браузере, зависит от родительского элемента */
+    text-decoration-line: underline;
+    font-weight: normal;
+}
+
+h5 { /* Размер шрифта в браузере равен 0.83em */
+    color: #282904;
+    font-size: 16px; 
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+h6 { /*Размер шрифта в браузере равен 0.67em*/
+    color: #26776a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: oblique;
+}
