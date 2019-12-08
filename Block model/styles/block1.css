@@ -1,0 +1,9 @@
+.block1 {
+    box-sizing: border-box;/*width and height включают в себя контент, поля и границы, без отступа*/
+    background: gray;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    border-left: 1px solid red;
+}
+

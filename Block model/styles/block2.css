@@ -1,0 +1,8 @@
+.block2 {
+    box-sizing: border-box;
+    height: 80px; /*ширина будет занимать всю доступную ширину контента браузера 
+    минус 10px mardin*/
+    padding: 5px; 
+    margin-left: 10px;
+    margin-top: 15px;
+}
